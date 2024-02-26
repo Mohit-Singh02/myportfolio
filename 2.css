@@ -714,14 +714,14 @@ p {
     height:100px;
     width:100px;
     background: #ffff;
-    padding:1px;
+    padding:10px;
     display:flex;
     justify-content: space-between;
 	/* margin-left: 100px; */
     box-shadow: 0px 0px 25px 0 #0000002c;
 	
 	margin-top:100px;
-	transition: 0.3s ease box-shadow;
+	transition: 0.5s ease box-shadow;
 	
 	
    
@@ -742,12 +742,12 @@ p {
     height: 100px;
     width: 100px;
     background: #ffff;
-    padding:1px;
+    padding:10px;
    
-    margin-left:140px;
+    margin-left:142px;
     display: flex;
     box-shadow: 0px 0px 25px 0 #0000002c;
-	transition: 0.3s ease box-shadow;
+	transition: 0.5s ease box-shadow;
     
     align-items: center;
     
@@ -766,3 +766,4 @@ p {
 
 	
 }
+

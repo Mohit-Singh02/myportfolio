@@ -1,5 +1,6 @@
 
 
+
 @media only screen and (min-width: 700px) {
 	.CA{
 		font-size: 2.5rem;
@@ -8,6 +9,7 @@
 	}
 	h1.section-title {
 		font-size: 6rem;
+		
 	}
 
 
@@ -20,6 +22,7 @@
 	
 	#projects .project-item {
 		flex-direction: row;
+		
 	}
 	#projects .project-item:nth-child(even) {
 		flex-direction: row-reverse;
@@ -46,6 +49,7 @@
 		width: 600px;
 		height: 400px;
 		padding-left: 60px;
+		
 	}
 	#about .about .col-left .about-img::after {
 		left: -45px;
@@ -53,6 +57,7 @@
 		height: 98%;
 		width: 98%;
 		border: 10px solid crimson;
+		border: 2px solid red;
 	}
 	#about .col-right {
 		text-align: left;
