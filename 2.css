@@ -292,11 +292,12 @@ p {
 	position: relative;
 	color: transparent;
 	animation: text_reveal 0.2s ease forwards;
-	animation-delay: 2s;
+	animation-delay:4s;
+	
     
 }
 #hero h1:nth-child(1) {
-	animation-delay: 1s;
+	animation-delay:1s;
 }
 #hero h1:nth-child(2) {
 	animation-delay: 2s;
@@ -311,9 +312,11 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: white;
+	background-color: rgb(255, 170, 151);
+	
 	animation: text_add_on 1s ease;
-	animation-delay: 0.5s;
+	animation-delay: 0.7s;
+	border-radius:20px;
    
 }
 #hero h1:nth-child(1) span {
@@ -336,10 +339,10 @@ p {
     height: 100px;
     width: 100px;
     background: #ffff;
-    padding: 10px;
+    padding:10px;
     display:inline;
     justify-content: space-between;
-    margin:90px;
+    margin:100px;
     box-shadow: 0px 0px 25px 0 #0000002c;
 	transition: 0.3s ease box-shadow;
 	cursor: pointer;
@@ -351,13 +354,14 @@ p {
 .Skill img:hover{
     box-shadow: 0px 0px 5px 0 black;
 }
-.Skill h5{
+/* .Skill h5{
     font-size: 20px;
     
     display: inline;
     padding-top: 10px;
     
-}
+} */
+
 
 .Skill .tool{
     height: 100px;
@@ -697,8 +701,11 @@ p {
 }
 @keyframes text_reverse {
 	100% {
-		color:aqua;
+		color:goldenrod;
 		font-weight:bold;
+		
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		letter-spacing:1px;
 
 	}
 }
